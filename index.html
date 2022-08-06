@@ -37,7 +37,21 @@
         </div>
     </nav>
     <main>
-      
+      <div class="wrapper">
+        <figure>
+          <!-- Adds a photo with a smaller proportion to the mobile version -->
+          <picture>
+              <source srcset="
+              images/HeroBanner390x219.jpg"
+              media="(max-width:390px)">
+              <!-- Adds a photo with a bigger proportion for the desktop version -->
+              <source srcset="
+              images/HeroBanner1920x1080.jpg"
+              media="(max-width:1100px)"> 
+              <img src="images/HeroBanner1920x1080.jpg"  alt="toronto banner">
+          </picture>
+      </figure>
+      </div>
     </main>
 </body>
 </html>
