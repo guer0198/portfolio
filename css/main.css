@@ -4,7 +4,11 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-h1{
+nav img{
+    width: 30px;
+}
+
+h2{
     font-style: italic;
     font-weight: bold;
 }
@@ -24,6 +28,25 @@ img{
 .box1{
     padding-bottom: 10px;
 }
-.btext{
+.textpad{
     padding: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+.wrapper-bottom img{
+    width: 575px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+footer{
+    background-color: white;
+    color: #222126;
 }

@@ -12,31 +12,33 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">ENRICO MEDIA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-            </ul>
-          </div>
+    <!-- Creates NAV BAR on bootstrap -->
+    <nav class="navbar fixed-top navbar-dark navbar-expand-sm bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logowhite.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
         </div>
+      </div> 
     </nav>
     <main>
+      <!-- FLEXBOX to change the box order on desktop view -->
       <div class="wrapper-top">
         <figure>
           <!-- Adds a photo with a smaller proportion to the mobile version -->
@@ -52,8 +54,8 @@
           </picture>
         </figure>
         <div class="box1">
-          <div class="btext">
-            <h1>LOREM IPSUM</h1>
+          <div class="textpad">
+            <h2>LOREM IPSUM</h2>
             <p>
               Eu facilisis sed odio morbi quis commodo. Convallis convallis tellus id interdum velit laoreet id. Quisque non tellus orci ac auctor augue mauris augue.
             </p>
@@ -62,9 +64,9 @@
             <img src="images/toronto813x503.jpg" alt="toronto">
           </div>
           <div class="box1">
-            <img src="images/toronto813x503.jpg" alt="toronto">
+            <img src="images/CNtower813x503.jpg" alt="CNtower">
           </div>
-          <div class="btext">
+          <div class="textpad">
             <p>
               Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Enim tortor at auctor urna nunc id cursus metus. Velit sed ullamcorper morbi tincidunt ornare massa. Adipiscing tristique risus nec feugiat in fermentum.
             </p>
@@ -74,12 +76,31 @@
           </div> 
         </div>
       </div>
+    </main>
 
+    <section>
       <!-- Wrapper with a black background -->
       <div class="wrapper-bottom">
+        <img src="images/camera468x792.jpg" alt="camera">
+        <div class="floatingtext">
+          <h1>VIDEOS</h1>
+        </div>
+        <div class="textpad">
+          <p>
+          Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Enim tortor at auctor urna nunc id cursus metus. Velit sed ullamcorper morbi tincidunt ornare massa. Adipiscing tristique risus nec feugiat in fermentum.
+          </p>  
+        </div>
+      </div>  
+    </section>
 
-      </div> 
-      
-    </main>
+    <article>
+      <div>
+        <img src="images/logowhite.png" alt="logo" class="logo"> 
+      </div>
+    </article>
+
+    <footer>
+       <a href="http://www.instagram.com/ricoguerrero_">@ricoguerrero_ </a>| Enrico Andrade
+    </footer>
 </body>
 </html>
