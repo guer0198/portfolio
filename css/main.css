@@ -25,6 +25,7 @@ h2{
 .wrapper-bottom{
     margin: auto;
     width: 575px;
+    overflow: hidden;
 }
 
 img{
@@ -46,6 +47,14 @@ img{
 
 .wrapper-bottom img{
     width: 575px;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(70%);
+}
+
+.wrapper-bottom img:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
 }
 
 .logo{
