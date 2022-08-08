@@ -22,6 +22,11 @@ h2{
     margin-top: 50px;
 }
 
+.wrapper-bottom{
+    margin: auto;
+    width: 575px;
+}
+
 img{
     max-width: 575px;
 }
