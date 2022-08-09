@@ -36,7 +36,7 @@ h4{
     font-size: 8rem;
     text-align: center;
     position: relative;
-    bottom: 500px;
+    bottom: 1100px;
 }
 
 .box1{
@@ -70,6 +70,10 @@ h4{
     margin-right: auto;
     margin-bottom: 30px;
     width: 150px;
+}
+
+.w4, .w3, .w2{
+    display: none;
 }
 
 footer{
@@ -168,5 +172,35 @@ input[type=submit] {
             'box2 box4'
             'box3 box5'
             'box3 box5';            
+    }
+    
+    .w4, .w3, .w2{
+        display:contents;
+    }
+
+    .w1{grid-area: box1;}
+    .w2{grid-area: box2;}
+    .w3{grid-area: box3;}
+    .w4{grid-area: box4;}
+    .textpad{grid-area: box5;}
+
+    .w4 img, .w2 img, .w3 img{
+        width: 350px;
+    }
+
+    .w1 img{
+        width: 384px;
+        padding-left: 100px;
+    }
+
+    .wrapper-bottom{
+        display: grid;
+        grid-template-areas:
+            'box1 box2 box5'
+            'box1 box2 box5'
+            'box1 box2 box5'
+            'box1 box3 box4'
+            'box1 box3 box4'
+            'box1 box3 box4'
     }
 }
