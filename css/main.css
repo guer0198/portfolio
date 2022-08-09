@@ -26,6 +26,7 @@ h2{
     margin: auto;
     width: 575px;
     overflow: hidden;
+    background-image: url(../images/Texture.jpg);
 }
 
 img{
@@ -44,12 +45,12 @@ h4{
 }
 .textpad, .box1, .box4{
     padding: 25px;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
-.textpad p{
-    padding-top: 30px;
+.textpad p, .w4 p{
+    padding-left: 15px;
 }
 
 .wrapper-bottom img{
@@ -142,7 +143,7 @@ input[type=submit] {
     } */
 
     .box2 img, .box3 img{
-        width: 450px;
+        width: 500px;
     }
 
     .box5 img{
@@ -168,7 +169,7 @@ input[type=submit] {
     .box5{grid-area: box5;}
 
     .box{
-        padding-bottom: 20px;
+        padding: 50px 0 50px 0;
         display: grid;
         grid-template-areas:
             'box2 box1'
@@ -187,7 +188,7 @@ input[type=submit] {
     }
 
     .w1 img{
-        width: 370px;
+        width: 362px;
         padding-left: 100px;
     }
 
@@ -205,16 +206,21 @@ input[type=submit] {
     .textpad{grid-area: box5;}
 
     .wrapper-bottom{
-        padding-top: 20px;
+        padding: 80px 0 80px 0;
         display: grid;
-        grid-gap: 25px;
+        grid-gap: 10px;
         grid-template-areas:
-            'box1 box2 box4'
-            'box1 box3 box5'
+            'box1 box2 box5'
+            'box1 box3 box4'
     }
     
     h4{
         position: relative;
         bottom: 660px;
+
+    }
+
+    article{
+        display: none;
     }
 }
