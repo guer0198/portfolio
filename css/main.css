@@ -32,10 +32,17 @@ img{
     max-width: 575px;
 }
 
+h4{
+    font-size: 8rem;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+}
+
 .box1{
     padding-bottom: 10px;
 }
-.textpad{
+.textpad, .box1, .box4{
     padding: 25px;
     width: 50%;
     margin: auto;
@@ -61,8 +68,8 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
-    width: 50%;
+    margin-bottom: 30px;
+    width: 150px;
 }
 
 footer{
@@ -70,6 +77,7 @@ footer{
     background-color: white;
     color: #222126;
     text-align: center;
+    width: auto;
 }
 
 .wrapper{
@@ -113,4 +121,52 @@ input[type=submit] {
     border: none;
     width: 100%;
     height: 50px;
+}
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 576px){
+    .wrapper-top, .wrapper-bottom, .wrapper{
+        width: 1280px;
+    }
+
+    img{
+        max-width: 1280px;
+    }
+
+    /* .box img{
+        width: 500px;
+    } */
+
+    .box2 img, .box3 img{
+        width: 480px;
+    }
+
+    .box5 img{
+        width: 450px;
+    }
+
+    .box2, .box3{
+        padding-left: 100px;
+    }
+
+    .box5{
+        margin: auto;
+    }
+
+    .box1{grid-area: box1;}
+    .box2{grid-area: box2;}
+    .box3{grid-area: box3;}
+    .box4{grid-area: box4;}
+    .box5{grid-area: box5;}
+
+    .box{
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-areas:
+            'box2 box1'
+            'box2 box4'
+            'box2 box4'
+            'box3 box5'
+            'box3 box5';            
+    }
 }

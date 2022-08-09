@@ -1,108 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-    <title>Enrico Andrade Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <title>Enrico Andrade Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <!-- Creates NAV BAR on bootstrap -->
-    <nav class="navbar fixed-top navbar-dark navbar-expand-sm bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="images/logowhite.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-      </div> 
-    </nav>
-    <main>
-      <!-- FLEXBOX to change the box order on desktop view -->
-      <div class="wrapper-top">
-        <figure>
-          <!-- Adds a photo with a smaller proportion to the mobile version -->
-          <picture>
-              <source srcset="
-              images/HeroBanner575x226.jpg"
-              media="(max-width:575px)">
-              <!-- Adds a photo with a bigger proportion for the desktop version -->
-              <source srcset="
-              images/HeroBanner1280x502.jpg"
-              media="(max-width:1100px)"> 
-              <img src="images/HeroBanner1280x502.jpg"  alt="toronto banner">
-          </picture>
-        </figure>
+  <!-- Creates NAV BAR on bootstrap -->
+  <nav class="navbar fixed-top navbar-dark navbar-expand-sm bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/logowhite.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!-- FLEXBOX to change the box order on desktop view -->
+    <div class="wrapper-top">
+      <figure>
+        <!-- Adds a photo with a smaller proportion to the mobile version -->
+        <picture>
+          <source srcset="
+              images/HeroBanner575x226.jpg" media="(max-width:575px)">
+          <!-- Adds a photo with a bigger proportion for the desktop version -->
+          <source srcset="
+              images/HeroBanner1280x502.jpg" media="(max-width:1100px)">
+          <img src="images/HeroBanner1280x502.jpg" alt="toronto banner">
+        </picture>
+      </figure>
+      <div class="box">
         <div class="box1">
-          <div class="textpad">
-            <h2>LOREM IPSUM</h2>
-            <p>
-              Eu facilisis sed odio morbi quis commodo. Convallis convallis tellus id interdum velit laoreet id. Quisque non tellus orci ac auctor augue mauris augue.
-            </p>
-          </div>
-          <div class="box1">
-            <img src="images/toronto813x503.jpg" alt="toronto">
-          </div>
-          <div class="box1">
-            <img src="images/CNtower813x503.jpg" alt="CNtower">
-          </div>
-          <div class="textpad">
-            <p>
-              Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Enim tortor at auctor urna nunc id cursus metus. Velit sed ullamcorper morbi tincidunt ornare massa. Adipiscing tristique risus nec feugiat in fermentum.
-            </p>
-          </div>
-          <div class="box1">
-            <img src="images/waves1-813x503.jpg" alt="white waves">
-          </div> 
-        </div>
-      </div>
-    </main>
-
-    <section>
-      <!-- Wrapper with a black background -->
-      <div class="wrapper-bottom">
-        <img src="images/camera468x792.jpg" alt="camera">
-        <div class="floatingtext">
-          <h1>VIDEOS</h1>
-        </div>
-        <div class="textpad">
+          <h2>LOREM IPSUM</h2>
           <p>
-          Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Enim tortor at auctor urna nunc id cursus metus. Velit sed ullamcorper morbi tincidunt ornare massa. Adipiscing tristique risus nec feugiat in fermentum.
-          </p>  
+            Eu facilisis sed odio morbi quis commodo. Convallis convallis tellus id interdum velit laoreet id. Quisque
+            non tellus orci ac auctor augue mauris augue.
+          </p>
         </div>
-      </div>  
-    </section>
-
-    <article>
-      <div>
-        <img src="images/logowhite.png" alt="logo" class="logo"> 
+        <div class="box2">
+          <img src="images/toronto813x503.jpg" alt="toronto">
+        </div>
+        <div class="box3">
+          <img src="images/CNtower813x503.jpg" alt="CNtower">
+        </div>
+        <div class="box4">
+          <p>
+            Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Accumsan lacus vel facilisis volutpat est
+            velit egestas dui id. Enim tortor at auctor urna nunc id cursus metus. Velit sed ullamcorper morbi tincidunt
+            ornare massa. Adipiscing tristique risus nec feugiat in fermentum.
+          </p>
+        </div>
+        <div class="box5">
+          <img src="images/waves1-813x503.jpg" alt="white waves">
+        </div>
       </div>
-    </article>
+    </div>
+  </main>
 
-    <footer>
-       <a href="http://www.instagram.com/ricoguerrero_">@ricoguerrero_ </a>| Enrico Andrade
-    </footer>
+  <section class="video-container">
+    <!-- Wrapper with a black background -->
+    <div class="wrapper-bottom">
+      <img src="images/camera468x792.jpg" alt="camera">
+        <h4>VI</h4>
+        <h4>DE</h4>
+        <h4>OS</h4> 
+    </div>
+    <div class="textpad">
+      <p>
+        Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Accumsan lacus vel facilisis volutpat est velit
+        egestas dui id. Enim tortor at auctor urna nunc id cursus metus. Velit sed ullamcorper morbi tincidunt ornare
+        massa. Adipiscing tristique risus nec feugiat in fermentum.
+      </p>
+    </div>
+  </section>
+
+  <article>
+    <img src="images/logowhite.png" alt="logo" class="logo">
+  </article>
+
+  <footer>
+    <a href="http://www.instagram.com/ricoguerrero_">@ricoguerrero_ </a>| Enrico Andrade
+  </footer>
 </body>
+
 </html>
