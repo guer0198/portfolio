@@ -8,6 +8,9 @@ nav img{
     width: 30px;
 }
 
+img{
+    width: 575px;
+}
 h2{
     font-style: italic;
     font-weight: bold;
@@ -23,15 +26,15 @@ h2{
 }
 
 .wrapper-bottom{
+    display: inline-block;
     margin: auto;
     width: 575px;
-    overflow: hidden;
     background-image: url(../images/Texture.jpg);
     position: relative;
 }
 
-img{
-    max-width: 575px;
+figure{
+    overflow: hidden;
 }
 
 .box1{
@@ -43,7 +46,9 @@ img{
     margin: auto;
 }
 
+
 .wrapper-bottom img{
+    display: block;
     width: 575px;
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
@@ -172,7 +177,7 @@ article{
     }
 
     img{
-        max-width: 1280px;
+        width: 1280px;
     }
 
     .box2 img, .box3 img{
@@ -240,7 +245,7 @@ article{
     }
 
     .w1 img{
-        width: 362px;
+        width: 367px;
         padding-left: 100px;
     }
 
@@ -289,7 +294,7 @@ article{
     }
 
     .w4 img{
-        width: 550px;
+        width: 537px;
     }
 
     .w5{
