@@ -1,5 +1,5 @@
 # Enrico Andrade portfolio
-##Videographer | Video editor | Photographer
+## Videographer | Video editor | Photographer
 
 The main idea of the website is to showcase Enrico's Skills as a videographer to attract potential employers.
 
