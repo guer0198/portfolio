@@ -186,7 +186,7 @@ input[type=submit] {
         display:contents;
     }
 
-    .w4 img, .w2 img, .w3 img{
+    .w5 img, .w4 img, .w2 img, .w3 img{
         width: 350px;
     }
 
@@ -244,5 +244,31 @@ input[type=submit] {
         justify-content: center;
     }
 
+    .w4 img{
+        width: 550px;
+    }
 
+    .w5{
+        margin-left: 70px;
+    }
+
+    .orange-wave{
+        text-align: center;
+    }
+
+    .orange-wave img{
+        width: 1280px;
+        height: 200px;
+    }
+
+    .contact{
+        width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .contact .textpad{
+        padding: 0 50px 0 50px;
+    }
 }
